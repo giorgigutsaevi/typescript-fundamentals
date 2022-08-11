@@ -106,7 +106,9 @@
     "src/2. obj-array-enums.ts",
     "src/3. union-aliases.ts",
     "src/4. function-callback-types.ts",
-    "src/5. next-gen-js-ts.ts"
+    "src/5. next-gen-js-ts.ts",
+    "src/6. classes.ts",
+    "src/7. interfaces.ts",
   ],
   "include": ["src/app.ts", "src/analytics.ts"] // if we have include, we must include all the files we want to compile!
 }
