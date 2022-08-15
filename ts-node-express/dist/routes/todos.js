@@ -8,9 +8,9 @@ const router = (0, express_1.Router)();
 // A route to ADD a new todo with a createTodo controller logic
 router.post("/", todos_1.createTodo);
 // A route to get ALL todos
-router.get("/");
+router.get("/", todos_1.getTodos);
 // A route to UPDATE a todo
-router.patch("/:id");
+router.patch("/:id", todos_1.updateTodo);
 // A route to DELETE a todo
-router.delete("/:id");
+router.delete("/:id", todos_1.deleteTodo);
 exports.default = router;
