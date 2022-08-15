@@ -16,3 +16,10 @@ For more examples on how to work with projects based on TS + Node + Express, che
 
 
 ## TS with React
+To create a brand new TypeScript template react application out of the box, we can follow the instructions on the official create-react-app [website](https://create-react-app.dev/docs/adding-typescript/).
+
+The below command will give yield a project that has full typescript support.
+
+```tsx
+npx create-react-app my-app --template typescript
+```
